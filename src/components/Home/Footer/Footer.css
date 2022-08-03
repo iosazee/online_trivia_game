@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: burlywood;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.footer-header {
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.linkedinLogo {
+    width: 45px;
+    padding: 5px;
+}
+
+.githubLogo {
+    width: 25px;
+    padding: 5px;
+}

@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    background-color: burlywood;
+    border: solid burlywood 3px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.navbar-home {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.navbar-gameplay {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.navbar-contactus {
+    margin-left: 20px;
+    padding-bottom: 10px;
+}

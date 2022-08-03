@@ -1,0 +1,26 @@
+.form {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.name, .email {
+    width: 500px;
+    margin: 5px;
+}
+
+.comments {
+    width: 500px;
+    margin: 5px;
+    height: 300px;
+}
+
+.submit {
+    width: 250px;
+    margin: 10px;
+    background-color: red;
+}
