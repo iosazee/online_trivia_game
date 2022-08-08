@@ -6,6 +6,7 @@ function Home () {
         <div className="home">
             <h1 className="home-header">Zee Multiplayer Online Trivia Game</h1>
             <img title="exerciseyourbrain" src="Images/exerciseYourBrain.png" alt="exerciseyourbrain" className="brainImage"/>
+            {/* // REVIEW: Nice use of importing the footer only on the pages that need it */}
             <Footer />
         </div>
     )

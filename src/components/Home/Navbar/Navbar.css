@@ -1,14 +1,18 @@
 .navbar {
     display: flex;
+    /* // REVIEW: Store these colors in hex color and put them into CSS variables in the app.css */
     background-color: burlywood;
     border: solid burlywood 3px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    /* // REVIEW: give it a size in px e.g 24px */
     font-size: large;
+    /* // REVIEW: give it a value 500 etc */
     font-weight: bolder;
 }
 
+/* // REVIEW: Great CSS class naming */
 .navbar-home {
     margin-right: 20px;
     padding-bottom: 10px;

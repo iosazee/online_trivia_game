@@ -11,7 +11,7 @@
     font-weight: bolder;
     background-color: white;
 }
-
+/* // REVIEW: maybe improve the name of the class below */
 .brainImage {
     display: block;
     width: 50%;

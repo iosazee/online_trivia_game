@@ -1,5 +1,6 @@
 import "./Footer.css"
 
+// REVIEW: nice use a functional component just to render something to the screen
 function Footer() {
     return (
         <div className="footer-container">
