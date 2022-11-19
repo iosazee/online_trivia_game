@@ -1,0 +1,9 @@
+.gameplay {
+    background-color: red;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

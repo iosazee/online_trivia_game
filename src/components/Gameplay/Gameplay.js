@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import FlipCard from "./FlipCard";
+import './Gameplay.css';
 
 
 
@@ -21,13 +22,14 @@ function Gameplay () {
 
 
     return (
-        <div className="gameplay">
-            <h1 className="home-header">Zee Multiplayer Online Trivia Game</h1>
-            {
-                cards.map((cardObject) => <FlipCard key={cardObject.question} card = {cardObject}/>)
-                
-            }
-             
+        <div>
+            <h1 className="home-header"> Online Trivia Game</h1>
+            <div className="gameplay">
+                {
+                    cards.map((card) => <FlipCard key={card.question} card = {card}/>)
+                    
+                }
+            </div>
         </div>
     )
 }
